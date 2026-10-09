@@ -1,0 +1,23 @@
+{
+  "name": "order-integration-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Prototype that connects storefronts, warehouse systems and last-mile couriers through one database",
+  "author": "Aamish Hussain",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test src/lib/*.test.js"
+  },
+  "dependencies": {
+    "lucide-react": "^1.53.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
+  }
+}
